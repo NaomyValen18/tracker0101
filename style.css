@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #999;
+  overflow: hidden;
+}
+
+#loading-container {
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+}
+
+#loading-text {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #6e48aa;
+}
+
+#progress-container {
+  height: 3px;
+  background-color: #222;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #6e48aa, #9d50bb);
+  transition: width 0.3s ease;
+}
+
+#loading-details {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.hidden {
+  display: none;
+}
